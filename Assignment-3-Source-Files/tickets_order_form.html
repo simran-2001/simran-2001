@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Event Tickets Order Form</title>
+	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+
+
+	<style>
+		.box {
+			border: 1px solid black;
+			width: 90%;
+			margin: 0px auto;
+			padding: 10px 20px;
+		}
+		.box input{
+			margin-top: 10px;
+		    border-color: orange;
+		}
+			
+		.box h3{
+			padding: 0px 20px;
+			margin: 10px 0px;
+		}
+		.box .btn{
+			width: 150px;
+			margin: 10px 60px;
+		}
+		table{
+			width: 100%;
+			text-align: center;
+		}
+		
+
+			
+		
+		
+
+
+	</style>
+</head>
+
+<body>
+	<div id="frame">
+		<header>
+			<img src="images/ornament-logo.png" alt="New Year Central Logo" style="width: 400px;">
+			<div id="header-line-1">New Year Central</div>
+			<div id="header-line-2">For the child in all of us!</div>
+		</header>
+
+		<!-- navigation starts -->
+		<nav id="nav_menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about_us.html">About Us</a></li>
+				<li><a href="products.html">Our Products</a></li>
+				<li><a href="tickets_order_form.html" class="current">Event Tickets</a></li>
+				<li><a href="contact_us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+
+		<aside>
+			<div class="sidebar-title">Products of The Week...</div>
+			<ul>
+				<li><a href="assets/products/berry-garland.html">Natural Holly Berry Garland, 5f - $74.99</a></li>
+				<li><a href="assets/products/artificial-red-berry-garland.html">Artificial Red Berry and White Edge
+						Holly Leaf Christmas Garland, 5.5f - $38.99</a></li>
+				<li><a href="assets/products/christmas-berries-stems.html">Christmas Berries Red Stems Evergreen Pine
+						Branches, 8pcs - $15.99</a></li>
+			</ul>
+		</aside>
+
+		<main>
+			<h1>Order Event Tickets</h1>
+			<!-- The form starts here... -->
+
+
+
+			
+				<form action="">
+
+
+					<!-- first box -->
+					<div class="box">
+						<h3>Member Information</h3>
+						<table>
+							<tr>
+								<td>E-mail:</td>
+								<td><input type="text" name="" id=""></td>
+							</tr>
+							<tr>
+								<td>First-Name:</td>
+								<td><input type="text" name="" id=""></td>
+							</tr>
+							<tr>
+								<td>Last-Name:</td>
+								<td><input type="text" name="" id=""></td>
+							</tr>
+							<tr>
+								<td>Adress:</td>
+								<td><input type="text" name="" id=""></td>
+							</tr>
+							<tr>
+								<td>City:</td>
+								<td><input type="text" name="" id=""></td>
+							</tr>
+							<tr>
+								<td>Province:</td>
+								<td><input type="text" name="" id=""></td>
+							</tr>
+							<tr>
+								<td>Postal Code:</td>
+								<td><input type="text" name="" id="" placeholder="16-code"></td>
+							</tr>
+							<tr>
+								<td>Phone Number:</td>
+								<td><input type="text" name="" id="" placeholder="999-999-9999"></td>
+							</tr>
+						</table>
+
+					</div>
+
+
+
+
+					<!-- second box -->
+
+
+					<div class="box">
+						<h3>Ordering Information</h3>
+						<table>
+							<tr>
+								<td style="padding: 10px 0px;">Event:</td>
+								<td>
+									<select name="" id="" style="border-color: orange;">
+										<option value="Cookie Decoration Conten">Cookie Decoration Conten</option>
+										<option value="Tree Decoration Contest">Tree Decoration Contest</option>
+										<option value="Gift Of Light Ride-Along">Gift Of Light Ride-Along</option>
+										<option value="Breakfast with Santa">Breakfast with Santa</option>
+									</select>
+								</td>
+								
+							</tr>
+							<tr>
+								<td>Order Type:</td>
+								<td>
+									<select style="width: 230px; border-color: orange;" name="" id="" >
+										<option value="Member package">Member package</option>
+										<option value="Donor Package">Donor Package</option>
+										<option value="Single Ticket">Single Ticket</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>Number of Tickets:</td>
+								<td><input type="text" name="" id="" placeholder="number of single Tickets"></td>
+							</tr>
+						</table>
+					</div>
+
+
+
+					<!-- third box -->
+
+
+					<div class="box">
+						<h3>Payment Methode</h3>
+						<table>
+							<tr>
+								<td style="text-align: center; width: 300px;"><input type="radio" name="" id=""> &nbsp; Bill me:</td>
+								<td style="text-align: left; width: 300px;"><input type="radio" name="" id=""> &nbsp; Credit Card</td>
+							</tr>
+						
+						</table>
+					</div>
+
+					<!-- fourth box -->
+
+					<div class="box">
+						<h3>Credit Card Information</h3>
+						<table>
+							<td>Card Type:</td>
+							<td>
+								<select style="width: 215px; border-color: orange;" name="" id="">
+									<option value="Visa">Visa</option>
+									<option value="Maser Card">Master Card</option>
+									<option value="Discover">Discover</option>
+								</select>
+							</td>
+							</tr>
+							<tr>
+								<td>Card Number:</td>
+								<td><input type="text" name="" id=""></td>
+							</tr>
+							<tr>
+								<td style="padding: 10px 0px;">Expiration Date:</td>
+								<td>
+									<select name="" style="border-color: orange;" id="">
+										<option value="january">january</option>
+										<option value="February">February</option>
+										<option value="March">March</option>
+										<option value="April">April</option>
+										<option value="May">May</option>
+										<option value="June">June</option>
+										<option value="july">july</option>
+										<option value="August">August</option>
+										<option value="September">September</option>
+										<option value="October">October</option>
+										<option value="November">November</option>
+										<option value="December">December</option>
+									</select>
+									<select name="" style="border-color: orange;" id="">
+										<option value="2021">2021</option>
+										<option value="2022">2022</option>
+										<option value="2023">2023</option>
+										<option value="2024">2024</option>
+										<option value="2025">2025</option>
+										<option value="2026">2026</option>
+										<option value="2027">2027</option>
+									</select>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+
+
+
+
+					<!-- fivth box -->
+					<div class="box">
+						<h3>Submit Your Order</h3>
+						<table>
+							<tr>
+								<td><button class="btn">Submit</button></td>
+								<td><button class="btn">Reset</button></td>
+							</tr>
+							
+								
+						</table>
+					</div>
+
+				</form>
+
+			</main>
+			
+			<footer>
+				<p>&copy; 2021 New Year Central. Created by Johnny White.</p>
+			</footer>
+			</div>
+			</body>
+			
+			</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
